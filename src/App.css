@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+.main{
+  display:flex;
+  flex-direction:row;
+  height: 100%;
+
+ 
+}
+.sidemenu{
+  width: 5%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+
+  
+
+}
+.mainblock{
+  width: 70%;
+ 
+  background-color: gray;
+  padding-left: 30px;
+  
+}
+.sideblock{
+  width: 25%;
+  height: 100%;
+  background-color: red;
+  padding-left: 30px;
+}
+.centered {
+  display:flex;
+   justify-content:center;
+    align-items:center;
+     margin: 10px;
+}
